@@ -15,14 +15,14 @@
 */
 #include <stdio.h>
 
-int main() {
-    int day;
+int main(){
+    int day ;
     int sec;
 
-    printf("Input day: ");
-    scanf("%d", &day);
-    sec = day * 24 * 60 * 60; 
-    printf("%d days = %d seconds", day, sec);
+    printf("Input day : ");
+    scanf("%d",&day);
+    sec = day * 24 * 60 * 60 ;
+    printf("%d days = %d secound",day , sec);
 
     return 0;
 }
