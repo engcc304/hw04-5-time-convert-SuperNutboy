@@ -22,5 +22,5 @@ int main(){
     printf("Input day : ");
     scanf("%d",&day);
     sec = day * 24 * 60 * 60 ;
-    printf("%d days = %d secound",day , sec);
+    printf("%d days = %d secounds",day , sec);
 }
